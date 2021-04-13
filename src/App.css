@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+
+.outColor{
+  width: 100px;
+  height: 100px;
+}
+
+.flex{
+  display: flex;
+}
+
+.out{
+ 
+  margin-top: 100px;
+  width: 600px ;
+  min-height: 500px;
+}
+
+.outText{
+  width: 200px;
+  word-break: break-all;
+  margin: 0 auto;
+}
+img{
+  float: right
+}

@@ -9,7 +9,7 @@ export function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <form>
+        <form className="flex">
           <div>
             <input
               type="text"
@@ -41,12 +41,12 @@ export function App() {
 
         </form>
 
-        <div>
-          <span>{illustration}</span>
-          <span style={{
+        <div className="out" style={{
             backgroundColor: bgColor,
-          }}>{bgColor}</span>
-          <img src={file} alt={file}/>
+          }}>
+            <img src={file} alt={file}/>
+            <div className="outText">{illustration}</div>
+          
         </div>
       </header>
     </div>
