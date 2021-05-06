@@ -2,6 +2,7 @@ import './App.css';
 import {useState} from 'react'
 import ProductList from './components/ProductsList'
 import CreateProducts from "./components/CreateProducts"
+import BucketList from "./components/BusketList"
 
 function App() {
   const [productList, setProductList] = useState([])
@@ -9,8 +10,9 @@ function App() {
 
   return (
     <div className="App">
-      <ProductList productList={productList} setBucketList={setBucketList}/>
       <CreateProducts setProductList={setProductList}/>
+      <ProductList productList={productList} setBucketList={setBucketList}/>
+      <BucketList bucketList={bucketList}/>
     </div>
   );
 }
