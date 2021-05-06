@@ -7,6 +7,7 @@ import BucketList from "./components/BusketList"
 function App() {
   const [productList, setProductList] = useState([])
   const [bucketList, setBucketList] = useState([])
+  const [tempList, setTempList] = useState([])
 
   return (
     <div className="App">
